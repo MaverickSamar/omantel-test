@@ -35,7 +35,7 @@ const ProductGrid = () => {
     {
       id: 2,
       name: 'Samsung Galaxy Z Flip7',
-      image: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'Flip7_Blue.jpg',
       price: '418.100',
       originalPrice: 'OMR',
       colors: ['#4169E1', '#000000', '#F4A460'],
@@ -47,7 +47,7 @@ const ProductGrid = () => {
     {
       id: 3,
       name: 'Galaxy A1 Samsung Galaxy S25 Edge 5G',
-      image: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 's25_edge_jetblack.jpg',
       price: '420.950',
       originalPrice: 'OMR',
       colors: ['#000000', '#D4AF37'],
@@ -57,7 +57,7 @@ const ProductGrid = () => {
     {
       id: 4,
       name: 'Apple iPhone 16e',
-      image: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'iPhone-16e-black',
       price: '',
       colors: ['#000000', '#FFFFFF'],
       buttonText: 'See details',
@@ -66,7 +66,7 @@ const ProductGrid = () => {
     {
       id: 5,
       name: 'Galaxy A1 Samsung Galaxy S25 Ultra',
-      image: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'sm-s931_galaxys25_front_mint.jpg',
       price: '',
       colors: ['#4169E1', '#000000', '#90EE90'],
       buttonText: 'See details',
@@ -75,7 +75,7 @@ const ProductGrid = () => {
     {
       id: 6,
       name: 'Galaxy A1 Samsung Galaxy S25',
-      image: 'https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=300',
+      image: 'sm-s938_galaxys25ultra_front_titaniumblack.jpg',
       price: '',
       colors: ['#D4AF37', '#000000', '#90EE90'],
       buttonText: 'See details',
