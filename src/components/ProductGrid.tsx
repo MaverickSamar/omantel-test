@@ -57,7 +57,7 @@ const ProductGrid = () => {
     {
       id: 4,
       name: 'Apple iPhone 16e',
-      image: 'iPhone-16e-black',
+      image: 'iPhone-16e-black.jpg',
       price: '',
       colors: ['#000000', '#FFFFFF'],
       buttonText: 'See details',
@@ -212,12 +212,14 @@ const ProductGrid = () => {
                     </div>
                     
                     {/* Product image */}
-                    <div className="flex-1">
+                    <div className="flex-1 cursor-pointer">
+                      <a href='https://store.omantel.om' target="_blank" className="text-decoration-none">
                       <img 
                         src={product.image} 
                         alt={product.name}
                         className="w-full h-64 object-contain"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -238,9 +240,9 @@ const ProductGrid = () => {
                       </div>
                     </div>
                   )}
-
+                  <a href='https://store.omantel.om' target="_blank" className="text-decoration-none">
                   <button 
-                    className={`w-full py-3 px-4 rounded-md text-sm font-medium transition-colors ${
+                    className={`w-full py-3 px-4 rounded-md text-sm font-medium cursor-pointer transition-colors ${
                       product.buttonColor === 'purple' 
                         ? 'bg-purple-600 text-white hover:bg-purple-700' 
                         : 'bg-orange-500 text-white hover:bg-orange-600'
@@ -248,6 +250,7 @@ const ProductGrid = () => {
                   >
                     {product.buttonText}
                   </button>
+                  </a>
                 </div>
               </div>
             ))}
