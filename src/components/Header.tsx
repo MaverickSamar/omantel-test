@@ -42,7 +42,7 @@ const Header = () => {
               <a href="#" className="hover:text-gray-900">Wholesale</a>
               <a href="#" className="hover:text-gray-900">Investors</a>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 cursor-pointer">
               <span className="text-orange-500 text-sm">العربية</span>
               <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
                 <span className="text-white text-xs font-bold">O</span>
@@ -144,11 +144,11 @@ const Header = () => {
           {/* Right side actions */}
           <div className="flex items-center space-x-4">
             <Search className="w-5 h-5 text-gray-400 cursor-pointer hover:text-gray-600" />
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-600 flex items-center space-x-2">
+            <button className="bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-600 flex items-center space-x-2 cursor-pointer">
               <CreditCard className="w-4 h-4" />
               <span>Pay bill</span>
             </button>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-600 flex items-center space-x-2">
+            <button className="bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-orange-600 flex items-center space-x-2 cursoer-pointer">
               <Phone className="w-4 h-4" />
               <span>Top up</span>
             </button>
@@ -161,7 +161,7 @@ const Header = () => {
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center space-x-2 py-3 text-sm text-gray-600">
+          <div className="flex items-center space-x-2 py-3 text-sm text-gray-600 cursor-pointer">
             <span>🏠</span>
             <span>Home</span>
             <span>›</span>

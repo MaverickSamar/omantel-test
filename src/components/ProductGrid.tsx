@@ -80,6 +80,78 @@ const ProductGrid = () => {
       colors: ['#D4AF37', '#000000', '#90EE90'],
       buttonText: 'See details',
       buttonColor: 'orange'
+    },
+    {
+        id: 7,
+        name: 'Apple iPhone 16 Plus',
+        image: 'IPHONE-16-PLUS-BLACK.png',
+        price: '343.000',
+        originalPrice: 'OMR',
+        colors: ['#000000', '#F5F5F5', '#FAD6D6'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'See details',
+        buttonColor: 'orange'
+    },
+    {
+        id: 8,
+        name: 'Apple iPhone 16',
+        image: 'IPHONE-16-BLACK.png',
+        price: '299.000',
+        originalPrice: 'OMR',
+        colors: ['#FAD6D6', '#FFB6C1', '#FFC0CB'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'See details',
+        buttonColor: 'orange'
+    },
+    {
+        id: 9,
+        name: 'Samsung Galaxy Z Flip6',
+        image: 'sm_zflip6_blue.jpg',
+        price: '428.000',
+        originalPrice: 'OMR',
+        colors: ['#00AEEF', '#C0C0C0', '#FFF68F'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'See details',
+        buttonColor: 'orange'
+    },
+    {
+        id: 10,
+        name: 'Apple iPhone 15 Pro Max',
+        image: 'Natural-Titanium-front.jpg',
+        price: '484.000',
+        originalPrice: 'OMR',
+        colors: ['#FAD6D6', '#C0C0C0', '#FAD6D6'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'See details',
+        buttonColor: 'orange'
+    },
+    {
+        id: 11,
+        name: 'Samsung Galaxy Tab S9',
+        image: 'Gray-front.jpg',
+        price: '363.810',
+        originalPrice: 'OMR',
+        colors: ['#000000', '#D3D3D3'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'See details',
+        buttonColor: 'orange'
+    },
+    {
+        id: 12,
+        name: 'Galaxy AI Samsung Galaxy S25+',
+        image: 'sm-s936_galaxys25plus_front_mint.jpg',
+        price: '343.730',
+        originalPrice: 'OMR',
+        colors: ['#FAD6D6', '#FFC0CB'],
+        badge: 'New',
+        badgeColor: 'green',
+        buttonText: 'Notify me',
+        buttonColor: 'orange',
     }
   ];
 
